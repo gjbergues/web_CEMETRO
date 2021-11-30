@@ -1,0 +1,167 @@
+@font-face{font-family:"GOTHIC";src:url("http://www.investigacion.frc.utn.edu.ar/cemetro/GOTHIC.TTF");}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+header, nav, section, article, aside, footer {
+	display: block;
+}
+body {
+font-family:GOTHIC;src:url("http://www.investigacion.frc.utn.edu.ar/cemetro/GOTHIC.TTF");
+font-size:13px;
+font-style:normal;
+font-weight:normal;
+
+}
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+
+
+/* Horizontal list
+-----------------------------------------------------------------------------*/
+		#first ul {
+    		list-style-type: none;
+    		margin: 0;
+    		padding: 0;
+    		overflow: hidden;
+    		background-color: #333333;
+			}
+
+		 #first li {
+    		float: left;
+				}
+
+		#first li a {
+    			display: block;
+    			color: white;
+    			text-align: center;
+    			padding: 16px;
+    			text-decoration: none;
+				}
+
+li a:hover {
+    background-color: #111111;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 170px;
+	
+}
+
+.menu li{
+list-style:none;
+margin:7px;
+}
+.menu a{
+text-decoration:none;
+border-bottom:1px dotted #CCCCCC;
+color:#333333;
+font-size:14px;
+padding:3px 5px;
+
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#content {
+	padding: 0;
+}
+
+
+
+.iconouno{
+background:url(imagenes/bolitas.jpg) no-repeat;
+background-position:0px 0px;
+width:74px;
+height:74px;
+margin:5px auto 0px;
+
+}
+.iconouno:hover{
+background:url(imagenes/bolitas.jpg) no-repeat;
+background-position:0px -78px;
+
+
+}
+.iconodos{
+background:url(imagenes/sobre.jpg) no-repeat;
+background-position:0px 0px;
+width:94px;
+height:75px;
+margin:5px auto 0px;
+
+}
+.iconodos:hover{
+background:url(imagenes/sobre.jpg) no-repeat;
+background-position:0px -78px;
+
+
+}
+.iconotres{
+background:url(imagenes/vasos.jpg) no-repeat;
+background-position:0px 0px;
+width:94px;
+height:75px;
+margin:5px auto 0px;
+
+}
+.iconotres:hover{
+background:url(imagenes/vasos.jpg) no-repeat;
+background-position:0px -78px;
+
+
+}
+.iconocuatro{
+background:url(imagenes/personas.jpg) no-repeat;
+background-position:0px 0px;
+width:94px;
+height:75px;
+margin:0 auto;
+
+}
+.iconocuatro:hover{
+background:url(imagenes/personas.jpg) no-repeat;
+background-position:0px -77px;
+
+
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+border-top:#ccc 1px dotted;
+	width: 1000px;
+	margin: 0 auto;
+	background: #fff;
+	margin-top:20px;
+	padding-top:20px;
+	padding-bottom:5px;
+	
+}
